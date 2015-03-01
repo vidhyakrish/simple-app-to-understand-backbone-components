@@ -1,20 +1,20 @@
-var myCityModel =  Backbone.Model.extend({
+var myCityModel = Backbone.Model.extend({
 
-defaults: {
+    defaults: {
 
-capital:'yes',
-commercial: false,
-cuisine:'Fish and chips',
-name:'Glasgow',
-accent:'scottish'
-},
+        capital: 'yes',
+        commercial: false,
+        cuisine: 'Fish and chips',
+        name: 'Glasgow',
+        accent: 'scottish'
+    },
 
-initialize:function(){
-console.log('hferfh'+ this.get('name') +'initialixed');
-//this.listenTo(this.get('name'),this.changed);
-},
-changed:function(){
-	console.log(this.name);
-}
+    initialize: function() {
+        console.log('hferfh' + this.get('name') + 'initialixed');
+        //this.listenTo(this.get('name'),this.changed);
+    },
+    changed: function() {
+        console.log(this.name);
+    }
 
 });
