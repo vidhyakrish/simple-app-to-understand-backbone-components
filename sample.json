@@ -1,0 +1,23 @@
+[
+   {
+    "name":"Glasgow",
+    "commercial": true,
+    "capital":"no",
+    "cuisine":"fish and chips",
+    "accent":"scottish"
+    },
+    {
+   "name":"Edinburgh",
+    "commercial": true,
+    "capital":"no",
+    "cuisine":"fish and chips",
+    "accent": "scottish"
+    },
+    {
+    "name":"Glasgow_wet",
+    "commercial": true,
+    "capital":"no",
+    "cuisine":"fish and chips",
+    "accent":"scottish"
+    }
+]

@@ -1,0 +1,18 @@
+var myCityView = Backbone.View.extend({
+	
+el:'section',
+
+
+
+
+initialize:function(){
+	
+	console.log('helo i am view');
+}
+
+
+
+
+});
+
+var glasgowView = new myCityView();
